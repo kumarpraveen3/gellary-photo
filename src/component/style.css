@@ -21,11 +21,8 @@ body {
 img {
   margin: 10px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   body {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
     background-color: black;
   }
   .text {
@@ -40,8 +37,12 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50%;
   }
   img {
-    margin-top: 10px;
+    margin-top: 20px;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
   }
 }
